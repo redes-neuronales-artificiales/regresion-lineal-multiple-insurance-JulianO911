@@ -166,7 +166,7 @@ def pregunta_04():
     mse_train = mse(  
         y_train_pred,  
         y_train,  
-    )
+    ).round(2)
     mse_test = mse(  
         y_test_pred,  
         y_test,  
